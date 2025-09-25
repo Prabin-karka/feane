@@ -1,0 +1,71 @@
+.feaneSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1c1f26;
+  padding: 60px 20px;
+  color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  aspect-ratio: 1/1;
+
+}
+
+.burgerImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.textContent {
+  flex: 1;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.heading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: clamp(14px,2vw,16px);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.readMore {
+  background-color: #f2b632;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.readMore:hover {
+  background-color: #d9a318;
+}
+@media screen and (max-width:576px) {
+  .feaneSection {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.heading {
+  text-align: center;
+}
+.imageContainer {
+  width: 60%
+}
+
+  
+}

@@ -1,0 +1,140 @@
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar wrapper */
+.navbar_main {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(145deg, #000000,  #3b4346);
+  padding: 15px 0;
+}
+
+/* Inner container */
+.navbar_container {
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.brand_name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Flex container for links + icons */
+.spliter_div {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation links */
+.navItems {
+  display: flex;
+  gap: 30px;
+}
+
+.items_a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.items_a:hover {
+  color: #f1b700;
+}
+
+.active {
+  color: #f1b700;
+  font-weight: bold;
+}
+
+/* Icons + button */
+.icon_items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.icon_button {
+  background-color: #f1b700;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+  transition: background-color 0.3s;
+}
+
+.icon_button:hover {
+  background-color: #e1a700;
+}
+
+/* Hamburger icon - hidden on desktop */
+.hamburger_icon {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Show hamburger + hide nav on mobile/tablet */
+@media screen and  (max-width: 992px) {
+  .hamburger_icon {
+    display: block;
+    color: white;
+    font-size: 24px;
+  }
+
+  .spliter_div {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: none;
+    z-index: 999;
+  }
+
+  .spliter_div.open {
+    display: flex;
+  }
+
+  .navItems {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .icon_items {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+
+
+

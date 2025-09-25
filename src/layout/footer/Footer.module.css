@@ -1,0 +1,204 @@
+/* main container */
+.footer_container {
+  background-color: #222831;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* contact+ feane + openning hour */
+.footer_items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px;
+}
+/* contact */
+.contact_container {
+  border: #222831;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.contactus_h1 {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+}
+.contact_icons {
+  font-size: 20px;
+}
+
+/* feane */
+.feane_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #222831;
+  width: 30%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+.feane_a {
+  border: #222831;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+  text-decoration: none;
+}
+.feane_items {
+  display: flex;
+  flex-direction: column;
+}
+.icon_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.details_icon {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 1px;
+  width: 25px;
+  border-radius: 50%;
+}
+/* opening hours */
+.opening_container {
+  border: #222831;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.opening_h1 {
+  border: #222831;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 36px;
+}
+/* reserved */
+.resersed_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.reserved_h4 {
+  color: white;
+  line-height: 30px;
+}
+/* details */
+.details_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.details_items {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.details_p {
+  color: white;
+  width: 100%;
+}
+
+
+@media screen and (max-width:992px) {
+    
+    
+
+/* contact+ feane + openning hour */
+.footer_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+/* contact */
+.contact_container {
+  border: #222831;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+/* feane */
+.feane_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #222831;
+  width: 85%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding: 10px;
+}
+
+
+/* opening hours */
+.opening_container {
+  border: #222831;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+.reserved_h4 {
+  color: white;
+  line-height: 30px;
+  font-size: 14px;
+}
+.details_items {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+}
+@media screen and (max-width:576px) {
+
+  .contact_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+}
+
+.feane_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.opening_container {
+  width: 100%;
+}
+  .reserved_h4 {
+  font-size: 12px;
+}
+}
