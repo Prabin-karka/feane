@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/feane/static/css/main.e137528f.css",
+    "main.js": "/feane/static/js/main.619f5a30.js",
+    "static/js/453.eb65e6f9.chunk.js": "/feane/static/js/453.eb65e6f9.chunk.js",
+    "static/media/f5.png": "/feane/static/media/f5.bdb24a6bfa2491d23209.png",
+    "static/media/f1.png": "/feane/static/media/f1.17f63e75a79fc7a8740c.png",
+    "static/media/f6.png": "/feane/static/media/f6.b64aa1807ae7647f37c8.png",
+    "static/media/f3.png": "/feane/static/media/f3.326f89cfe13b0082e3b5.png",
+    "static/media/f4.png": "/feane/static/media/f4.25a01dcd448e21154653.png",
+    "static/media/hero-bg.jpg": "/feane/static/media/hero-bg.ac596bd69d11364d39b2.jpg",
+    "static/media/about-img.png": "/feane/static/media/about-img.981b27cc5bd7cbeae7ac.png",
+    "static/media/f9.png": "/feane/static/media/f9.ee51242ed11eb5c32770.png",
+    "static/media/f7.png": "/feane/static/media/f7.8bd1009d295dee9d0e59.png",
+    "static/media/f8.png": "/feane/static/media/f8.bbf75915b57d5c41997b.png",
+    "static/media/f2.png": "/feane/static/media/f2.9157aed0d4393c8ed4ab.png",
+    "static/media/o2.jpg": "/feane/static/media/o2.b61e08068c07743d3080.jpg",
+    "static/media/o1.jpg": "/feane/static/media/o1.62a8c9e1282c80ea35f9.jpg",
+    "static/media/client2.jpg": "/feane/static/media/client2.8736889fabe2c295c571.jpg",
+    "static/media/client1.jpg": "/feane/static/media/client1.5f8bbe6bde7126f7efd5.jpg",
+    "index.html": "/feane/index.html",
+    "main.e137528f.css.map": "/feane/static/css/main.e137528f.css.map",
+    "main.619f5a30.js.map": "/feane/static/js/main.619f5a30.js.map",
+    "453.eb65e6f9.chunk.js.map": "/feane/static/js/453.eb65e6f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e137528f.css",
+    "static/js/main.619f5a30.js"
+  ]
+}
