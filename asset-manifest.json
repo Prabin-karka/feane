@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/feane/static/css/main.e137528f.css",
+    "main.css": "/feane/static/css/main.8dcd37b5.css",
     "main.js": "/feane/static/js/main.619f5a30.js",
     "static/js/453.eb65e6f9.chunk.js": "/feane/static/js/453.eb65e6f9.chunk.js",
     "static/media/f5.png": "/feane/static/media/f5.bdb24a6bfa2491d23209.png",
@@ -19,12 +19,12 @@
     "static/media/client2.jpg": "/feane/static/media/client2.8736889fabe2c295c571.jpg",
     "static/media/client1.jpg": "/feane/static/media/client1.5f8bbe6bde7126f7efd5.jpg",
     "index.html": "/feane/index.html",
-    "main.e137528f.css.map": "/feane/static/css/main.e137528f.css.map",
+    "main.8dcd37b5.css.map": "/feane/static/css/main.8dcd37b5.css.map",
     "main.619f5a30.js.map": "/feane/static/js/main.619f5a30.js.map",
     "453.eb65e6f9.chunk.js.map": "/feane/static/js/453.eb65e6f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e137528f.css",
+    "static/css/main.8dcd37b5.css",
     "static/js/main.619f5a30.js"
   ]
 }
